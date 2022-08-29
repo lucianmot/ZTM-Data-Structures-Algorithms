@@ -1,0 +1,15 @@
+# Arrays - Merge Sorted Arrays
+
+# mergeSortArrays([0,3,4,31], [4,6,30])
+# array1 [0,3,4,31]
+# array2 [4,6,30]
+# merge arrays into [0,3,4,4,6,30,31]
+arrayus = [0,3,4,31]
+arrayzor = [4,6,30]
+
+def mergeSortedArrays(array1, array2):
+  sortArray = array1 + array2
+  sortArray.sort()
+  print(sortArray)
+
+mergeSortedArrays(arrayus,arrayzor)
