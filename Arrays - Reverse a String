@@ -1,0 +1,19 @@
+# Arrays - Reverse a String
+
+# Create a function that reverses a string
+# "Hi My name is Lucian" type
+# "naicuL is eman yM iH"
+
+input = "Hi My name is Lucian"
+input1 = ""
+input2 = "H"
+
+def strReverse(string):
+  if len(string) <= 1:
+    print(string)
+  else:
+    print(''.join(list(string)[::-1]))
+
+strReverse(input)
+strReverse(input1)
+strReverse(input2)
